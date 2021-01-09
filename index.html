@@ -9,18 +9,99 @@
   <body>
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
     <h1>Please fill this form</h1>
-    <!--
+<div class="container">
+        <h1 id="title">
+          This is title
+        </h1>
+        <p id="description" >
+          This is description
+        </p>
+        <div class="survey-form">
+           <form action="" id="survey-form">
+             <label id="name-label" for="name">Name</label>
+             <br/>
+             <input type="text" id="name" name="name" placeholder="Enter your name" required>
+             <br/>
+             <label id="email-label" for="email">Email</label>
+             <br/>
+             <input type="email" id="email" placeholder="Enter your email" required>
+             <br/>
+             <label id="number-label" for="number">Age(optional)</label>
+             <br/>
+             <input type="number" id="number" min="1" max="100" placeholder="Age">
+             <br/>
+              <label for="role">Which option best describes your current role?</label>
+              <br/>
+              <select id="dropdown">
+                  <option value="Student">Student</option>
+                  <option value="Full time job">Full time job</option>
+                  <option value="Full time learner">Full time learner</option>
+                  <option value="Prefer not to say">Prefer not to say</option>
+                  <option value="Other">Other</option>
+              </select>
+              <br/>
+              <p>Would you recommend freeCodeCamp to a friend?</p>
+              <input type="radio" value="Definitely" name="radio-button" >
+              <label for="Definitely">Definitely</label>
+              <br/>
+              <input type="radio" value="Maybe" name="radio-button" >
+              <label for="Maybe">Maybe</label>
+              <br/>
+              <input type="radio" value="Not sure" name="radio-button" >
+              <label for="Notsure">Not sure</label>
+              <br/>
 
-    Hello Camper!
+              <label for="feature">Which option best describes your current role?</label>
+              <br/>
+              <select id="feature">
+                  <option value="Challenges">Challenges</option>
+                  <option value="Projects">Projects</option>
+                  <option value="Community">Community</option>
+                  <option value="Open source">Open source</option>
+              </select>
+              <br/>
+              <p>What would you like to see improved? (Check all that apply)</p>
+              <input type="checkbox" value="Front-end" name="Front-end Projects" id="frontEndProjects">
+              <label for="Front-end Projects">Front-end Projects</label>
+              <br/>
+              <input type="checkbox" value="Back-end" name="Back-end Projects" id="backEndProjects">
+              <label for="Back-end Projects" >Back-end Projects</label>
+              <br/>
+              <input type="checkbox" value="Visualization" name="Data Visualization" id="dataVisualization">
+              <label for="Data Visualization">Data Visualization</label>
+              <br/>
+              <input type="checkbox" value="Challenges" name="Challenges" id="challenges">
+              <label for="Challenges">Challenges</label>
+              <br/>
+              <input type="checkbox" value="Open Source" name="Open Source Community" id="openSourceCommunity">
+              <label for="Open Source Community">Open Source Community</label>
+              <br/>
+              <input type="checkbox" value="Gitter" name="Gitter help rooms" id="gitterhelprooms">
+              <label for="Gitter help rooms">Gitter help rooms</label>
+              <br/>
+              <input type="checkbox" value="Videos" name="Videos" id="videos">
+              <label for="Videos">Videos</label>
+              <br/>
+              <input type="checkbox" value="City Meetups" name="City Meetups" id="cityMeetups">
+              <label for="City Meetups">City Meetups</label>
+              <br/>
+              <input type="checkbox" value="Wiki" name="Wiki" id="wiki">
+              <label for="Wiki">Wiki</label>
+              <br/>
+              <input type="checkbox" value="Forum" name="Forum" id="forum">
+              <label for="Forum">Forum</label>
+              <br/>
+              <input type="checkbox" value="Additional Courses" name="Additional Courses" id="additionalCourses">
+              <label for="Additional Courses">Additional Courses</label>
+              <br/>
+              <p>Any comments or suggestions?</p>
+              <textarea id="comments" name="comments" rows="5" cols="40" placeholder="Enter your comment here"></textarea>
+              <br/>
+              <input type="submit" id="submit" value="Submit" name="Submit">
+           </form>
+        </div>
 
-    For now, the test suite only works in Chrome!
-    Please read the README below in the JS Editor before beginning.
-    Feel free to delete this message once you have read it.
-    Good luck and Happy Coding!
-
-    - The freeCodeCamp Team
-
-    -->
+    </div>
     <script  src="js/index.js"></script>
   </body>
 </html>
